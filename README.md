@@ -39,26 +39,33 @@ After collecting the data, based on no of likes, shares and comments decided whi
 * Added one more column called trending.
 * If the TikTok has likes >= 40000 and shares >= 10000 and comments >= 500 then it is trending and the trending column has value **1**
 * Else the trending column has value **0** (not trending tiktok)
-* Final csv file has the following  data:
+* Final csv file has the following data:
+ 
+Username,UserId,VideoDesc,VideoTime,VideoLength,VideoLink,Likes,Shares,Comments,Plays,Trending
 
---Username
 
-... UserId
+# Model Building
+I split the data into train and tests sets with a test size of 30%.Training set has 6252 samples.
+Testing set has 2680 samples.
 
-...VideoDesc
+Natural Language processing is used before spliting the data into training and testing.
+* Removed the stop words from the description.
+* Created worldcloud for trending and non-trending description from data set.
+* Converted the words into vectorized form so we can use the data with following models.
 
-...VideoTime
+I tried four different models and evaluated tehm using accurancy.
 
-...VideoLength
+Models which I have tried are :
+* Multi Naive-Base
+* Support Vector Machine
+* K-nearest neighbors
+* Rondom Forest
 
-...VideoLink
 
-...Likes
+# Model Performance
 
-...Shares
-
-...Comments
-
-...Plays
-
-...Trending
+Accuracy  in %
+* Multi Naive-Base : 83.582
+* Support Vector Machine : 85.037
+* K-nearest neighbors :84.440
+* Rondom Forest : 87.537
