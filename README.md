@@ -69,3 +69,11 @@ Accuracy  in %
 * Support Vector Machine : 85.037
 * K-nearest neighbors :84.440
 * Rondom Forest : 87.537
+
+
+Add Images here
+
+# Productionization 
+
+In this step, first I saved Random Forest model using Joblib. After the model is saved, I build a API endpoint using Flask, that will take ine input as description apply the saved model on the description and predict wheather it will be trending  or not. 
+Developed an frontend app using React native that will take description and using axios app sends the description to Flask Api and it returns wheather the description will be trending or not. 
