@@ -41,7 +41,7 @@ After collecting the data, based on no of likes, shares and comments decided whi
 * Else the trending column has value **0** (not trending tiktok)
 * Final csv file has the following data:
  
-Username,UserId,VideoDesc,VideoTime,VideoLength,VideoLink,Likes,Shares,Comments,Plays,Trending
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/Data_CSV.png" width="1000" />
 
 
 # Model Building
@@ -71,31 +71,25 @@ Accuracy  in %
 * K-nearest Neighbors :84.440
 * Multi Naive-Base : 83.582
 
-Random Forest:
-
-<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/RF.png" width="300" />
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/BarGrpahA.png" width="500" />
 
 
 
-Support Vector Machine:
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/RF.png" width="200" /> <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/SVM.png" width="200" />
 
 
-<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/SVM.png" width="300" />
-
-K-nearest Neighbors:
-
-<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/KNN.png" width="300" />
-
-
-Multi Naive-Base:
-
-<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/MultiNB.png" width="300" />
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/KNN.png" width="210" /> <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/MultiNB.png" width="200" />
 
 
 # Productionization 
 
 In this step, first I saved Random Forest model using Joblib. After the model is saved, I build a API endpoint using Flask, that will take ine input as description apply the saved model on the description and predict wheather it will be trending  or not. 
 Developed an frontend app using React native that will take description and using axios app sends the description to Flask Api and it returns wheather the description will be trending or not. 
+
+# React Native App
+
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/FE-pt1.png" width="204" /> <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/FE-pt2.png" width="202" /> <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/FE-pt3.png" width="200" /> <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/FE-pt4.png" width="195" />
+
 
 # Demo
 
