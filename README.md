@@ -43,6 +43,20 @@ After collecting the data, based on no of likes, shares and comments decided whi
  
 <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/Data_CSV.png" width="1000" />
 
+# Data Visualization 
+* Trending Tiktok Description WordCloud
+
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/TrendingWorldCloud.png" width="600" />
+
+* HeatMap : A method of graphically representing numerical data where the value of each data point is indicated using colors.
+
+
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/HeatMap.png" width="600" />
+
+* Non Trending Tiktok Description WordCloud
+
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/NonTrendingWorldCloud.png" width="600" />
+
 
 # Model Building
 I split the data into train and tests sets with a test size of 30%.Training set has 6252 samples.
@@ -75,10 +89,7 @@ Accuracy  in %
 
 
 
-<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/RF.png" width="200" /> <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/SVM.png" width="200" />
-
-
-<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/KNN.png" width="210" /> <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/MultiNB.png" width="200" />
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/KNN.png" width="210" />     <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/SVM.png" width="219" />     <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/RF.png" width="218" />     <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/MultiNB.png" width="200" />
 
 
 # Productionization 
@@ -88,7 +99,7 @@ Developed an frontend app using React native that will take description and usin
 
 # React Native App
 
-<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/FE-pt1.png" width="204" /> <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/FE-pt2.png" width="202" /> <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/FE-pt3.png" width="200" /> <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/FE-pt4.png" width="195" />
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/FE-pt1.png" width="204" />   <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/FE-pt2.png" width="202" />   <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/FE-pt3.png" width="200" />   <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/FE-pt4.png" width="195" />
 
 
 # Demo
