@@ -65,15 +65,38 @@ Models which I have tried are :
 # Model Performance
 
 Accuracy  in %
-* Multi Naive-Base : 83.582
-* Support Vector Machine : 85.037
-* K-nearest neighbors :84.440
+
 * Rondom Forest : 87.537
+* Support Vector Machine : 85.037
+* K-nearest Neighbors :84.440
+* Multi Naive-Base : 83.582
+
+Random Forest:
+
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/RF.png" width="300" />
 
 
-Add Images here
+
+Support Vector Machine:
+
+
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/SVM.png" width="300" />
+
+K-nearest Neighbors:
+
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/KNN.png" width="300" />
+
+
+Multi Naive-Base:
+
+<img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/MultiNB.png" width="300" />
+
 
 # Productionization 
 
 In this step, first I saved Random Forest model using Joblib. After the model is saved, I build a API endpoint using Flask, that will take ine input as description apply the saved model on the description and predict wheather it will be trending  or not. 
 Developed an frontend app using React native that will take description and using axios app sends the description to Flask Api and it returns wheather the description will be trending or not. 
+
+# Demo
+
+Click [here](https://drive.google.com/file/d/1R3Fu7BYxmJb_Otirmd7ZDA6UaiMG8Je4/view?usp=sharing) for demo.
