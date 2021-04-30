@@ -1,5 +1,10 @@
 # TikTok- Tredning Prediction based on Description
 
+As a user of TikTok, I was curious if I can predict the trending or non trending video of Tiktok based on the description. Along with that I wanted to use NLP (Natural Language Processing) because I believe it is going to more important in furture. So, being the computer science student, I decided my masters project to predict the TikTok Trending Prediction based on the description we are putting with the video.
+
+
+# Introduction 
+
 * Created  a app using React Native, Sklearn library to predict weather the video will be tredning on TikTok or not based on its Description.
 
 * Scraped over 10000 tiktok data with details such as username, userid, videoid, video desc, video time,video length, video link, likes, shares, comments and plays using python API.
