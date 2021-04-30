@@ -94,6 +94,7 @@ Accuracy  in %
 
 
 
+
 <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/KNN.png" width="210" />     <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/SVM.png" width="219" />     <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/RF.png" width="218" />     <img src="https://github.com/PranjalVarade/TikTok-Prediction/blob/main/Images/MultiNB.png" width="200" />
 
 
